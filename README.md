@@ -6,14 +6,14 @@ Chemistry is a difficult subject, and it can be especially difficult to get stud
 #### Step 1: Basic Website Outline
 - [x] Create an html outline of what the site's pages might look like 
 #### Step 2: Implementing Element Pages
-- [ ] Make a page for each element that the user will be directed to if they click on it; each page should have a back, home, and next button (also decide if this is necessary to do at all... there are 118 elements, which means making 118 pages)
+- [x] Make a page for each element that the user will be directed to if they click on it; each page should have a back, home, and next button (also decide if this is necessary to do at all... there are 118 elements, which means making 118 pages)
 - [ ] Collect information about each element (and put citations of where this information was retrieved from)
 #### Step 3: Setting up the Table
 - [ ] Figure out how to make the periodic table (image or individual boxes for each element?)
-- [ ] Allow the user to hover over each box to show a preview of the element 
+- [ ] Allow the user to hover over each box to show a preview of the element
 - [ ] Allow the user to click on the element, which will take the user to a page on the element
 #### Step 4: Implementing the Element List Page
-- [ ] Make a page that contains a list of all the elements; when the user clicks on one of the elements, they'll be taken to that element's page
+- [x] Make a page that contains a list of all the elements; when the user clicks on one of the elements, they'll be taken to that element's page
 - [ ] Possibly allow the user to hover over the elements to get a brief preview of them 
 #### Step 5: Implementing the Element Search Page
 - [ ] Make a search box that pulls up the element when the user enters its name 
@@ -39,7 +39,7 @@ This project is still very early in its development; thus, the only way to run i
 ```
 google-chrome index.html 
 ```
-If you're using Mozilla Firefox browser, you can view it using this command:
+If you're using the Mozilla Firefox browser, you can view it using this command:
 ```
 firefox index.html 
 ```
