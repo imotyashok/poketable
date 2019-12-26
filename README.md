@@ -29,6 +29,9 @@ Chemistry is a difficult subject, and it can be especially difficult to get stud
 - [ ] Use CSS to format the raw html and make it look nicer 
 - [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will probably be the most time consuming part)
 - [ ] Put it all together; overlay the drawings with the periodic table, etc. 
+#### Step 7: Making it Live 
+- [ ] Come up with a good domain name and purchase it 
+- [ ] Find a web hosting service to host the site on  
 
 ## Ideas for Future Implementation
 The prototype of this project will be just to get a simple online periodic table that users can navigate, with the added bonus of reimagining each element into a pokemon-style creature. However, I have some pretty big ideas as to how this project can be developed further. 
