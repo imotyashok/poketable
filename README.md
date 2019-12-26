@@ -7,21 +7,27 @@ Chemistry is a difficult subject, and it can be especially difficult to get stud
 - [x] Create an html outline of what the site's pages might look like 
 #### Step 2: Implementing Element Pages
 - [x] Make a page for each element that the user will be directed to if they click on it; each page should have a back, home, and next button (also decide if this is necessary to do at all... there are 118 elements, which means making 118 pages)
-- [ ] Collect information about each element (and put citations of where this information was retrieved from)
+- [x] Collect information about each element
 #### Step 3: Setting up the Table
-- [ ] Figure out how to make the periodic table (image or individual boxes for each element?)
-- [ ] Allow the user to hover over each box to show a preview of the element
-- [ ] Allow the user to click on the element, which will take the user to a page on the element
+- [x] Figure out how to make the periodic table (I ended up making a literal table using html)
+- [ ] Allow the user to hover over each box 
+- [ ] Allow the user to click on the element, which will make a pop-up window of the element's page on the current page
 #### Step 4: Implementing the Element List Page
 - [x] Make a page that contains a list of all the elements; when the user clicks on one of the elements, they'll be taken to that element's page
 - [ ] Possibly allow the user to hover over the elements to get a brief preview of them 
 #### Step 5: Implementing the Element Search Page
-- [ ] Make a search box that pulls up the element when the user enters its name 
-- [ ] Make another search box that pulls up the element when the user enters its atomic number
+- [x] Make a search box with a text field and enter button
 - [ ] Allow the user to be taken to the element's page once they find what they need 
+  
+  **NOTE:** I have realized that this will probably be the most difficult part of setting up the entire site. From what I have discovered through a bit of research (which I'll need to do more of), in order to have a search function on a website, you need
+- a search engine script; one possibility is Sphider, which can be downloaded here: ```http://www.sphider.eu/about.php```
+- you need to be connected to a web server (which we currently are not, for now)
+- allow the button we made to run a proper .php script upon the action event of the user pressing the button
+- if I'll be using Sphider, I'll need to figure some things out with MySQL...
+
 #### Step 6: Making it Pretty 
 - [ ] Use CSS to format the raw html and make it look nicer 
-- [ ] Design and draw the pokemon creatures using Adobe Photoshop
+- [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will probably be the most time consuming part)
 - [ ] Put it all together; overlay the drawings with the periodic table, etc. 
 
 ## Ideas for Future Implementation
