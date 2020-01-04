@@ -18,6 +18,7 @@ hr{
     color: #EC7357; 
     text-align: center;
     font-size: 2.5em;
+    
 }
 
 body{
@@ -39,7 +40,7 @@ body{
 
 #elem-list-table{
     background-color: #E1CE7A;
-    margin-left: 7.5em;
+    margin-left: 6em;
     width: 75%;
     border-collapse: collapse;
 }
@@ -66,7 +67,7 @@ body{
 #elem_list_footer ul{
     width: 570px;
     margin: 0px auto 0px auto;
-    text-align: center;
+    text-align: justify;
 }
 
 #elem_list_footer li{
