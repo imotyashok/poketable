@@ -1,544 +1,584 @@
 <html>
-<div id="table_header">
+<link href="../styles/table.css" type="text/css" rel="stylesheet" />
+
+<div id="header">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet" />
+
+    <img src="../images/temp-site-banner.png" />
+
+    <hr />
+
     <h1>Poke-Table</h1>
     <p>Welcome to the poke-table! You can click on any element you
         like to see more information about it.</p>
-    <hr />
 </div>
 
+<hr />
+
 <body>
-    <table id="periodic_table">
-        <thead>
-        <tr>
-            <!-- <th>Periodic Table of the Elements</th> -->
-            <th></th> <th>1</th> <th>2</th> <th>3</th> <th>4</th> <th>5</th> <th>6</th> <th>7</th> <th>8</th>
-            <th>9</th> <th>10</th> <th>11</th> <th>12</th> <th>13</th> <th>14</th> <th>15</th> <th>16</th>
-            <th>17</th> <th>18</th> 
-        </tr>
-        </thead>
+    <table id="ptable">
         <tbody>
-            <!-- DECIDE WHICH ONE TO USE FOR THE GROUP NUMBERS -- THE THEAD OR THIS ROW !
-            <tr id="group_numbers">
-                <td></td> <td>1</td> <td>2</td> <td>3</td> <td>4</td> <td>5</td> <td>6</td> <td>7</td>
-                <td>8</td> <td>9</td> <td>10</td> <td>11</td> <td>12</td> <td>13</td> <td>14</td> <td>15</td>
-                <td>16</td> <td>17</td> <td>18</td>
+            <tr>
+                <!-- <th>Periodic Table of the Elements</th> -->
+
+                <th id="empty"></th>
+                <th id="group_num">Group</th>
+                <th id="group_num">1</th>
+                <th id="group_num">2</th>
+                <th id="group_num">3</th>
+                <th id="group_num">4</th>
+                <th id="group_num">5</th>
+                <th id="group_num">6</th>
+                <th id="group_num">7</th>
+                <th id="group_num">8</th>
+                <th id="group_num">9</th>
+                <th id="group_num">10</th>
+                <th id="group_num">11</th>
+                <th id="group_num">12</th>
+                <th id="group_num">13</th>
+                <th id="group_num">14</th>
+                <th id="group_num">15</th>
+                <th id="group_num">16</th>
+                <th id="group_num">17</th>
+                <th id="group_num">18</th>
+
             </tr>
-        -->
             <tr id="row_1">
-                <td id="per_num_1">
+                <th id="per_num">
+                    Period
+                </th>
+                <th id="per_num">
                     1
+                </th>
+                <td id="non-metal" onclick="location.href='../element-pages/hydrogen.html'">
+                    1 <br />
+                    H
                 </td>
-                <td>
-                   1 <br />
-                   H 
-                </td>
-                <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
-                <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
-                <td>
-                    <p>2<br /> He</p>
+                <th id="empty" colspan="16"></th>
+                <td id="noble-gas" onclick="location.href='../element-pages/helium.html'">
+                    2 <br />
+                    He
                 </td>
             </tr>
             <tr id="row_2">
-                <td id ="per_num_2">
+                <th id="empty" rowspan="6"></th>
+
+                <th id="per_num">
                     2
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/lithium.html'">
                     3 <br />
                     Li
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/beryllium.html'">
                     4 <br />
                     Be
                 </td>
-                <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
-                <td></td>
-                <td>
+
+                <th id="key-sect" colspan="10" rowspan="2"> 
+                    <span id="key">Key:</span>
+                    <span id="alkali-metal-key">Alkali metals</span>
+                    <span id="alkaline-earth-metal-key">Alkaline earth metals</span>
+                    <span id="lanthanide-key">Lanthanides</span>
+                    <span id="actinide-key">Actinides</span>
+                    <span id="transition-metal-key">Transition metals</span>
+                    <span id="post-transition-metal-key">Post transition metals</span>
+                    <span id="metalloid-key">Metalloids</span>
+                    <span id="non-metal-key">Non-metals</span>
+                    <span id="noble-gas-key">Noble gases</span>
+                    <span id="unknown-key">Unknown</span>
+                </th>  
+
+                <td id="metalloid" onclick="location.href='../element-pages/boron.html'">
                     5 <br />
                     B
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/carbon.html'">
                     6 <br>
                     C
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/nitrogen.html'">
                     7 <br>
                     N
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/oxygen.html'">
                     8 <br>
                     O
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/fluorine.html'">
                     9 <br>
                     F
                 </td>
-                <td>
+                <td id="noble-gas" onclick="location.href='../element-pages/neon.html'">
                     10 <br>
                     Ne
                 </td>
             </tr>
             <tr id="row_3">
-                <td id="per_num_3">
+                <th id="per_num">
                     3
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/sodium.html'">
                     11 <br>
                     Na
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/magnesium.html'">
                     12 <br>
                     Mg
                 </td>
-                <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td>
-                <td></td> <td></td>
-                <td>
+
+                <td id="post-transition-metal" onclick="location.href='../element-pages/aluminium.html'">
                     13 <br>
                     Al
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/silicon.html'">
                     14 <br>
                     Si
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/phosphorus.html'">
                     15 <br>
                     P
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/sulfur.html'">
                     16 <br>
                     S
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/chlorine.html'">
                     17 <br>
                     Cl
                 </td>
-                <td>
+                <td id="noble-gas" onclick="location.href='../element-pages/argon.html'">
                     18 <br>
                     Ar
                 </td>
             </tr>
             <tr id="row_4">
-                <td id="per_num_4">
+                <th id="per_num">
                     4
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/potassium.html'">
                     19 <br>
                     K
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/calcium.html'">
                     20 <br>
                     Ca
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/scandium.html'">
                     21 <br>
                     Sc
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/titanium.html'">
                     22 <br>
                     Ti
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/vanadium.html'">
                     23 <br>
                     V
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/chromium.html'">
                     24 <br>
                     Cr
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/manganese.html'">
                     25 <br>
                     Mn
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/iron.html'">
                     26 <br>
                     Fe
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/cobalt.html'">
                     27 <br>
                     Co
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/nickel.html'">
                     28 <br>
                     Ni
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/copper.html'">
                     29 <br>
                     Cu
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/zinc.html'">
                     30 <br>
                     Zn
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/gallium.html'">
                     31 <br>
                     Ga
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/germanium.html'">
                     32 <br>
                     Ge
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/arsenic.html'">
                     33 <br>
                     As
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/selenium.html'">
                     34 <br>
                     Se
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/bromine.html'">
                     35 <br>
                     Br
                 </td>
-                <td>
+                <td id="noble-gas" onclick="location.href='../element-pages/krypton.html'">
                     36 <br>
                     Kr
                 </td>
             </tr>
             <tr id="row_5">
-                <td id="per_num_5">
+                <th id="per_num">
                     5
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/rubidium.html'">
                     37 <br>
                     Rb
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/strontium.html'">
                     38 <br>
                     Sr
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/yttrium.html'">
                     39 <br>
                     Y
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/zirconium.html'">
                     40 <br>
                     Zr
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/niobium.html'">
                     41 <br>
                     Nb
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/molybdenum.html'">
                     42 <br>
                     Mo
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/technetium.html'">
                     43 <br>
                     Tc
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/ruthenium.html'">
                     44 <br>
                     Ru
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/rhodium.html'">
                     45 <br>
                     Rh
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/palladium.html'">
                     46 <br>
                     Pd
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/silver.html'">
                     47 <br>
                     Ag
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/cadmium.html'">
                     48 <br>
                     Cd
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/indium.html'">
                     49 <br>
                     In
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/tin.html'">
                     50 <br>
                     Sn
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/antimony.html'">
                     51 <br>
                     Sb
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/tellurium.html'">
                     52 <br>
                     Te
                 </td>
-                <td>
+                <td id="non-metal" onclick="location.href='../element-pages/iodine.html'">
                     53 <br>
                     I
                 </td>
-                <td>
+                <td id="noble-gas" onclick="location.href='../element-pages/xenon.html'">
                     54 <br>
                     Xe
                 </td>
             </tr>
             <tr id="row_6">
-                <td id="per_num_6">
+                <th id="per_num">
                     6
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/caesium.html'">
                     55 <br>
                     Cs
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/barium.html'">
                     56 <br>
                     Ba
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/lanthanum.html'">
                     57 <br>
                     La
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/hafnium.html'">
                     72 <br>
                     Hf
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/tantalum.html'">
                     73 <br>
                     Ta
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/tungsten.html'">
                     74 <br>
                     W
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/rhenium.html'">
                     75 <br>
                     Re
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/osmium.html'">
                     76 <br>
                     Os
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/iridium.html'">
                     77 <br>
                     Ir
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/platinum.html'">
                     78 <br>
                     Pt
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/gold.html'">
                     79 <br>
                     Au
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/mercury.html'">
                     80 <br>
                     Hg
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/thallium.html'">
                     81 <br>
                     Tl
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/lead.html'">
                     82 <br>
                     Pb
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/bismuth.html'">
                     83 <br>
                     Bi
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/polonium.html'">
                     84 <br>
                     Po
                 </td>
-                <td>
+                <td id="metalloid" onclick="location.href='../element-pages/astatine.html'">
                     85 <br>
                     At
                 </td>
-                <td>
+                <td id="noble-gas" onclick="location.href='../element-pages/radon.html'">
                     86 <br>
                     Rn
                 </td>
             </tr>
             <tr id="row_7">
-                <td id="per_num_7">
+                <th id="per_num">
                     7
-                </td>
-                <td>
+                </th>
+                <td id="alkali-metal" onclick="location.href='../element-pages/francium.html'">
                     87 <br>
                     Fr
                 </td>
-                <td>
+                <td id="alkaline-earth-metal" onclick="location.href='../element-pages/radium.html'">
                     88 <br>
                     Ra
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/actinium.html'">
                     89 <br>
                     Ac
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/rutherfordium.html'">
                     104 <br>
                     Rf
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/dubnium.html'">
                     105 <br>
                     Db
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/seaborgium.html'">
                     106 <br>
                     Sg
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/bohrium.html'">
                     107 <br>
-                    Bh 
+                    Bh
                 </td>
-                <td> 
+                <td id="transition-metal" onclick="location.href='../element-pages/hassium.html'">
                     108 <br>
-                    Hs 
+                    Hs
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/meitnerium.html'">
                     109 <br>
                     Mt
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/darmstadtium.html'">
                     110 <br>
                     Ds
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/roentgenium.html'">
                     111 <br>
                     Rg
                 </td>
-                <td>
+                <td id="transition-metal" onclick="location.href='../element-pages/copernicium.html'">
                     112 <br>
                     Cn
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/nihonium.html'">
                     113 <br>
                     Nh
                 </td>
-                <td>
+                <td id="post-transition-metal" onclick="location.href='../element-pages/flerovium.html'">
                     114 <br>
                     Fl
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/moscovium.html'">
                     115 <br>
                     Mc
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/livermorium.html'">
                     116 <br>
                     Lv
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/tennessine.html'">
                     117 <br>
                     Ts
                 </td>
-                <td>
+                <td id="unknown" onclick="location.href='../element-pages/organesson.html'">
                     118 <br>
                     Og
                 </td>
-
             </tr>
-            <tr id="lanthanides">  
-                <td></td> <td></td> <td></td> <td></td>
-                <td>
+
+            <tr id="empty-row">
+                <th id="empty"></th id="empty">
+            </tr>
+
+            <tr id="lanthanides">
+                <th id="empty" colspan="5" rowspan="2"></th>
+                
+                <td id="lanthanide" onclick="location.href='../element-pages/cerium.html'">
                     58 <br>
                     Ce
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/praseodymium.html'">
                     59 <br>
                     Pr
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/neodymium.html'">
                     60 <br>
                     Nd
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/promethium.html'">
                     61 <br>
                     Pm
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/samarium.html'">
                     62 <br>
                     Sm
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/europium.html'">
                     63 <br>
                     Eu
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/gadolinium.html'">
                     64 <br>
                     Gd
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/terbium.html'">
                     65 <br>
                     Tb
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/dysprosium.html'">
                     66 <br>
                     Dy
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/holmium.html'">
                     67 <br>
                     Ho
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/erbium.html'">
                     68 <br>
                     Er
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/thulium.html'">
                     69 <br>
                     Tm
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/ytterbium.html'">
                     70 <br>
                     Yb
                 </td>
-                <td>
+                <td id="lanthanide" onclick="location.href='../element-pages/lutetium.html'">
                     71 <br>
                     Lu
                 </td>
             </tr>
             <tr id="actinides">
-                <td></td> <td></td> <td></td> <td></td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/thorium.html'">
                     90 <br>
                     Th
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/protactinium.html'">
                     91 <br>
                     Pa
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/uranium.html'">
                     92 <br>
-                    U 
+                    U
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/neptunium.html'">
                     93 <br>
                     Np
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/plutonium.html'">
                     94 <br>
                     Pu
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/americium.html'">
                     95 <br>
                     Am
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/curium.html'">
                     96 <br>
-                    Cm 
+                    Cm
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/berkelium.html'">
                     97 <br>
                     Bk
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/californium.html'">
                     98 <br>
                     Cf
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/einsteinium.html'">
                     99 <br>
                     Es
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/fermium.html'">
                     100 <br>
                     Fm
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/mendelevium.html'">
                     101 <br>
                     Md
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/nobelium.html'">
                     102 <br>
                     No
                 </td>
-                <td>
+                <td id="actinide" onclick="location.href='../element-pages/lawrencium.html'">
                     103 <br>
                     Lr
                 </td>
@@ -549,10 +589,16 @@
 
 </body>
 
-<div id="table_footer">
-    <hr />
-    <a href="../index.html">Home</a>
-    <a href="../elements-list/index.html">View List of Elements</a>
-    <a href="../elements-search/index.html">Search For an Element</a>
+<hr />
+
+<div id="footer">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li>○</li>
+        <li><a href="../elements-list/index.html">View List of Elements</a></li>
+        <li>○</li>
+        <li><a href="../elements-search/index.html">Search For an Element</a></li>
+    </ul>
 </div>
+
 </html>

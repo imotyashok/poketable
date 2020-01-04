@@ -1,0 +1,193 @@
+hr{
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    border-color: #EC7357;
+}
+
+#header img{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%; 
+}
+
+#header h1{
+    font-family: 'Source Code Pro', 'Roboto', monospace; 
+    color: #EC7357; 
+    text-align: center;
+    font-size: 2.5em;
+}
+
+body{
+    font-family: 'Roboto', monospace;
+    background-color: #FDD692; 
+    color: #754F44;
+    padding: 20px;
+    margin: 5px 250px auto 250px; 
+    margin: 0.5em 10em auto 10em;
+    font-size: 1.1em;
+} 
+
+/* TABLE STYLING */
+
+#ptable{
+    margin-left: -20px;
+    width: 100%;
+    table-layout: fixed;
+   /* empty-cells: hide; */
+}
+
+#ptable td, th{
+    width: 45px;
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bolder;
+    border: 1px solid rgb(77, 71, 69); 
+}
+
+#ptable td:hover{
+    background-color: #FBFFB9;
+    cursor: pointer;
+}
+
+/* FORMATTING FOR THE CAPTIONS */
+
+#per_num{
+    font-size: 0.75em;
+    border: none;
+    cursor: default;
+}
+
+#group_num{
+    font-size: 0.75em;
+    border: none;
+    cursor: default;
+}
+
+#empty{
+    border: none;
+    cursor: default;
+}
+
+/* COLORS FOR TABLE KEY */
+
+#key-sect{
+    border: none;
+    font-size: 0.85em;
+    line-height: 1.75em;
+}
+
+#key{
+    border: 1px solid rgb(77, 71, 69); 
+    padding: 3px;
+}
+
+#alkali-metal-key{
+    background-color: rgb(250, 151, 118);
+}
+
+#alkaline-earth-metal-key{
+    background-color: rgb(248, 179, 179);
+}
+
+#lanthanide-key{
+    background-color: #79EAA1;
+}
+
+#actinide-key{
+    background-color: #8EABEA;
+}
+
+#transition-metal-key{
+    background-color: #FFB858;
+}
+
+#post-transition-metal-key{
+    background-color: #FFF06A;
+}
+
+#metalloid-key{
+    background-color: #C8B5EA;
+}
+
+#non-metal-key{
+    background-color: rgb(223, 245, 99);
+}
+
+#noble-gas-key{
+    background-color: #B5EAD7;
+}
+
+#unknown-key{
+    background-color: rgb(233, 233, 233);
+}
+
+/* COLORS FOR ELEMENT TYPES */
+
+#non-metal{
+    background-color: rgb(223, 245, 99);
+}
+
+#noble-gas{
+    background-color: #B5EAD7;
+}
+
+#metalloid{
+    background-color: #C8B5EA;
+}
+
+#post-transition-metal
+{
+    background-color: #FFF06A;
+}
+
+#transition-metal{
+    background-color: #FFB858;
+}
+
+#alkaline-earth-metal{
+    background-color: rgb(248, 179, 179);
+}
+
+#alkali-metal{
+    background-color: rgb(250, 151, 118);
+}
+
+#lanthanide{
+    background-color: #79EAA1;
+}
+
+#actinide{
+    background-color: #8EABEA;
+}
+
+#unknown{
+    background-color: rgb(233, 233, 233);
+}
+
+/* FOOTER */
+
+#footer ul{
+    
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+#footer li{
+    display: inline;
+    margin: 0px 5px;
+}
+
+#footer a{
+    color: #754F44;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#footer a:hover{
+    color: #EC7357;
+}
+
