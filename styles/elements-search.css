@@ -1,0 +1,91 @@
+hr{
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    border-color: #EC7357;
+} 
+
+#header img{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 100%; 
+}
+
+#header h1{
+    font-family: 'Source Code Pro', 'Roboto', monospace; 
+    color: #EC7357; 
+    text-align: center;
+    font-size: 2.5em;
+}
+
+body{
+    font-family: 'Roboto', monospace;
+    background-color: #FDD692; 
+    padding: 20px;
+    margin: 5px 250px auto 250px; 
+    margin: 0.5em 10em auto 10em;
+    font-size: 1.1em;
+}
+
+form{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    color: #754F44;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 3px solid #EC7357;
+    border-radius: 8px;
+    background-color: #E1CE7A;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: 3px solid #FBFFB9;
+    border-radius: 8px;
+  }
+
+  input[type=button], input[type=submit], input[type=reset]{
+      background-color: #E1CE7A;
+      padding: 16px 32px;
+  }
+
+  button[type=submit]{
+    font-family: 'Roboto', monospace;
+    color: #754F44;
+    font-weight: bolder; 
+    background-color: #E1CE7A;
+    padding: 12px 32px;
+    border: 3px solid #EC7357;
+  }
+
+  button[type=submit]:hover{
+      background-color: #FBFFB9;;
+  }
+
+  #footer ul{
+    
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+#footer li{
+    display: inline;
+    margin: 0px 5px;
+}
+
+#footer a{
+    color: #754F44;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#footer a:hover{
+    color: #EC7357;
+}
