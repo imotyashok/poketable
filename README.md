@@ -25,6 +25,7 @@ As of this point in this project's development, the site is fully functional and
 - if I'll be using Sphider, I'll need to figure some things out with MySQL...
 
 - [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will be the most time consuming part)
+- [ ] Allow the user to click on the illustration of the creature to find out some cool facts about the element and about the creature's design 
 - [ ] Come up with a good domain name and purchase it 
 - [ ] Find a web hosting service to host the site on and officially deploy the site 
 
