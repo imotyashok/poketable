@@ -1,37 +1,32 @@
 # Poke-Table
-## Concept 
+
+## Viewing the Site 
+This project is still very early in its development; thus, it isn't yet deployed to an actual domain. You can view it from Github Pages by following this link: https://imotyashok.github.io/poketable/
+
+If you're interested in running it from your local machine, you can clone this repository, cd into the cloned folder and run the following command from your terminal:
+```
+[browser-name] index.html 
+```
+(Replace [browser name] with the name of the browser you're using. For example, if you're using Google Chrome, your browser name would be 'google-chrome'; Mozilla Firefox would be 'firefox', and so on) 
+
+More conveniently, you can view it from Github Pages by following this link: https://imotyashok.github.io/poketable/ 
+
+## Concept and Purpose
 Chemistry is a difficult subject, and it can be especially difficult to get students interested in it. After staring at periodic tables for many, many hours during my brief venture into the field of chemistry and biology, I thought "man, how cool would it be if each element was a pokemon creature?" Thus I came up with the idea of making an online periodic table where each element was reimagined into a creature, and the atomic number, weights, electron configurations, and chemical properties correspond to the creature's "stats". 
 
-## Approach
-#### Step 1: Basic Website Outline
-- [x] Create an html outline of what the site's pages might look like 
-#### Step 2: Implementing Element Pages
-- [x] Make a page for each element that the user will be directed to if they click on it; each page should have a back, home, and next button (also decide if this is necessary to do at all... there are 118 elements, which means making 118 pages)
-- [x] Collect information about each element
-#### Step 3: Setting up the Table
-- [x] Figure out how to make the periodic table (I ended up making a literal table using html)
-- [ ] Allow the user to hover over each box 
-- [ ] Allow the user to click on the element, which will make a pop-up window of the element's page on the current page
-#### Step 4: Implementing the Element List Page
-- [x] Make a page that contains a list of all the elements; when the user clicks on one of the elements, they'll be taken to that element's page
-- [ ] Possibly allow the user to hover over the elements to get a brief preview of them 
-#### Step 5: Implementing the Element Search Page
-- [x] Make a search box with a text field and enter button
-- [ ] Allow the user to be taken to the element's page once they find what they need 
-  
-  **NOTE:** I have realized that this will probably be the most difficult part of setting up the entire site. From what I have discovered through a bit of research (which I'll need to do more of), in order to have a search function on a website, you need
+## To-Do
+As of this point in this project's development, the site is fully functional and can be used as a regular periodic table. However, there are several features that need to be developed further or added in order to make the site as smooth and finished as possible. 
+- [ ] Having the element information appear in a popup window when the user clicks on it from the periodic table rather than redirecting it to the element page  
+- [ ] Make a working search page (allow the user to be taken to the element's page once they find what they need with the search page
+**NOTE:** I have realized that this will probably be the most difficult part of setting up the entire site. From what I have discovered through a bit of research (which I'll need to do more of), in order to have a search function on a website, you need
 - a search engine script; one possibility is Sphider, which can be downloaded here: ```http://www.sphider.eu/about.php```
 - you need to be connected to a web server (which we currently are not, for now)
 - allow the button we made to run a proper .php script upon the action event of the user pressing the button
 - if I'll be using Sphider, I'll need to figure some things out with MySQL...
 
-#### Step 6: Making it Pretty 
-- [ ] Use CSS to format the raw html and make it look nicer 
-- [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will probably be the most time consuming part)
-- [ ] Put it all together; overlay the drawings with the periodic table, etc. 
-#### Step 7: Making it Live 
+- [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will be the most time consuming part)
 - [ ] Come up with a good domain name and purchase it 
-- [ ] Find a web hosting service to host the site on  
+- [ ] Find a web hosting service to host the site on and officially deploy the site 
 
 ## Ideas for Future Implementation
 The prototype of this project will be just to get a simple online periodic table that users can navigate, with the added bonus of reimagining each element into a pokemon-style creature. However, I have some pretty big ideas as to how this project can be developed further. 
@@ -43,12 +38,3 @@ The whole purpose of this would be to help teach students how molecules form bas
 #### Idea 2: User Profiles
 Users will have the choice to make a profile on the site, which will allow them to collect and trade elements and molecules and "battle" other users. I'd have to think more about the logistics of how all that would work out; for example, would user accounts have "levels", where users can gain experience in order to level up their account and therefore unlock more elements to make more molecules with? Where would this experience come from? Perhaps users can start with a few basic elements, like H and O, and once they combine these elements into molecules (like H2O), they gain a certain amount of experience, level up, and unlock new elements to combine into new molecules. It's something to think about, and it could be a really interesting addition to the site.
 
-## Viewing the Site 
-This project is still very early in its development; thus, the only way to run it is to download this repository to your local machine and run it locally. If you're using the Google Chrome browser, enter the following command in your terminal:
-```
-google-chrome index.html 
-```
-If you're using the Mozilla Firefox browser, you can view it using this command:
-```
-firefox index.html 
-```
