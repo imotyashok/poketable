@@ -26,6 +26,7 @@ As of this point in this project's development, the site is fully functional and
 
 - [ ] Design and draw the pokemon creatures using Adobe Photoshop (this will be the most time consuming part)
 - [ ] Allow the user to click on the illustration of the creature to find out some cool facts about the element and about the creature's design 
+- [ ] Make the site responsive -- currently, it doesn't look too great when viewed on a mobile phone 
 - [ ] Come up with a good domain name and purchase it 
 - [ ] Find a web hosting service to host the site on and officially deploy the site 
 
