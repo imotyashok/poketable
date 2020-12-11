@@ -1,5 +1,8 @@
 # Poke-Table
 
+## UPDATE: New Version in the Making
+I've made this site a long time ago -- long before I knew anything about the magical power of Javascript or databases. So, I'll be redesigning the entire thing in the upcoming weeks in the hopes of making the site better constructed and optimized. I'm also hoping to get the elemental creatures designed and illustrated as I go. 
+
 ## Viewing the Site 
 This project is still very early in its development; thus, it isn't yet deployed to an actual domain. You can view it from Github Pages by following this link: https://imotyashok.github.io/poketable/
 
